@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>985</width>
+    <height>635</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLineEdit" name="lineEditUrl">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>70</y>
+      <width>461</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignmentFlag::AlignCenter</set>
+    </property>
+    <property name="placeholderText">
+     <string>Link(URL)</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnAddLink">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>250</y>
+      <width>80</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Add</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnSearch">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>250</y>
+      <width>80</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Search</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEditType">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>130</y>
+      <width>461</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignmentFlag::AlignCenter</set>
+    </property>
+    <property name="placeholderText">
+     <string>Type</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEditContext">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>190</y>
+      <width>461</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignmentFlag::AlignCenter</set>
+    </property>
+    <property name="placeholderText">
+     <string>Context</string>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="tableLinks">
+    <property name="geometry">
+     <rect>
+      <x>15</x>
+      <y>300</y>
+      <width>951</width>
+      <height>192</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnEdit">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>510</y>
+      <width>80</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Edit</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnDelete">
+    <property name="geometry">
+     <rect>
+      <x>630</x>
+      <y>510</y>
+      <width>80</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Delete</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnExport">
+    <property name="geometry">
+     <rect>
+      <x>830</x>
+      <y>150</y>
+      <width>80</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Export file</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnImport">
+    <property name="geometry">
+     <rect>
+      <x>830</x>
+      <y>230</y>
+      <width>80</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Import file</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboSearchField">
+    <property name="geometry">
+     <rect>
+      <x>384</x>
+      <y>250</y>
+      <width>111</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="placeholderText">
+     <string>Search Filters</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>All Fields</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Type</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>URL</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Context</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QPushButton" name="btnPreview">
+    <property name="geometry">
+     <rect>
+      <x>59</x>
+      <y>250</y>
+      <width>101</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Open in Browser</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnBack">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>250</y>
+      <width>41</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Back</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
